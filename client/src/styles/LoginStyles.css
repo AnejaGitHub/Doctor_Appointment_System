@@ -1,0 +1,79 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.register-form{
+    /* display: flex; */
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+    width: auto;
+}
+
+.body{
+    background-image:linear-gradient(rgba(211, 211, 247, 0.5), rgba(82, 60, 124, 0.5)), url("docbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .register-form{
+        /* display: flex; */
+        border: 1px solid grey;
+        padding: 30px;
+        width: 70%;
+    }
+    .btn{
+        width: 15vw;
+    }
+    
+    .body{
+        background-image:linear-gradient(rgba(211, 211, 247, 0.5), rgba(82, 60, 124, 0.5)), url("docbg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .register-form{
+        /* display: flex; */
+        border: 1px solid grey;
+        padding: 30px;
+        width: 35%;
+    }
+    .btn{
+        width: 15vw;
+    }
+    
+    .body{
+        background-image:linear-gradient(rgba(211, 211, 247, 0.5), rgba(82, 60, 124, 0.5)), url("docbg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* font-size: ; */
+    }
+}
